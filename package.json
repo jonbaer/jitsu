@@ -44,7 +44,7 @@
   },
   "main": "./lib/jitsu",
   "scripts": {
-    "test": "vows test/commands/*-test.js test/*-test.js --isolate --spec"
+    "test": "node -e \"throw new Error('Tests are not implemented.')\""
   },
   "engines": {
     "node": ">= 0.4.0"
